@@ -4,25 +4,25 @@ Roadmap items are ideas, not shipped capabilities.
 
 ## P0 · Reliability
 
-- [ ] Atomic output writes via temporary file and rename.
+- [ ] Atomic output writes using temporary file and rename.
 - [ ] Detect source/target equivalence across canonical paths and filesystem identity where supported.
-- [ ] Preserve output permissions intentionally and document overwrite semantics.
+- [ ] Define output permissions and overwrite semantics.
 - [ ] Add disk-full and permission-denied integration tests.
 
 ## P1 · CLI usability
 
-- [ ] Add a proper argument parser only when options justify the dependency.
 - [ ] Configurable Gzip compression level.
-- [ ] Optional output naming and keep/remove source switches.
+- [ ] Optional output naming.
 - [ ] Quiet and machine-readable JSON output modes.
+- [ ] Structured argument parser when options justify it.
 
 ## P2 · Formats and workflows
 
 - [ ] Separate decompression subcommand.
-- [ ] Directory traversal and packaging, with explicit archive semantics.
-- [ ] Benchmark harness for representative file classes.
+- [ ] Directory traversal and archive packaging with explicit archive semantics.
+- [ ] Reproducible benchmarks across file types and compression levels.
 - [ ] Optional parallel compression after profiling.
 
-## Non-goals until explicitly designed
+## Non-goals until designed
 
 No image optimizer, cloud service, GUI, password encryption, ZIP/TAR support, or network API is currently included.
