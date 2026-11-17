@@ -25,6 +25,4 @@ flowchart TD
   J -->|No| L([Review failure])
 ~~~
 
-## Release guidance
-
-CI validates source quality and the release binary build. A release still requires manual review of behavior changes, supported platforms, Cargo.lock updates, and Gzip interoperability. Do not claim a published release merely because CI passes.
+CI validates source quality and release-binary build. A release still requires manual review of behavior changes, supported platforms, Cargo.lock updates, and Gzip interoperability.
