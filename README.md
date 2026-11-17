@@ -87,6 +87,10 @@ flowchart TB
 
 ![Compression flow](docs/assets/compression-flow.svg)
 
+![Gzip container structure](docs/assets/gzip-container.svg)
+
+![Benchmark workflow](docs/assets/benchmark-workflow.svg)
+
 ```mermaid
 sequenceDiagram
   actor User
@@ -210,6 +214,9 @@ Potential directions, not implemented features:
 ## 📚 Documentation
 
 - [Documentation index](docs/README.md)
+- [Asset index](docs/assets/README.md)
+- [CI and release automation](docs/operations/ci-and-release.md)
+- [CI troubleshooting](docs/operations/ci-troubleshooting.md)
 - [Architecture and design](docs/architecture/README.md)
 - [CLI reference](docs/reference/cli.md)
 - [Compression format notes](docs/reference/gzip-format.md)
