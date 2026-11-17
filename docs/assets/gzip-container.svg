@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+<title id="t">Conceptual Gzip member structure</title><desc id="d">A Gzip member contains a header, a DEFLATE compressed data payload, and a trailer containing CRC32 and the original input size modulo 2 to the 32.</desc>
+<defs><style>.bg{fill:#0e192e}.h{fill:#fff;font:bold 22px Arial}.s{fill:#cfdef4;font:16px Arial}</style></defs><rect class="bg" width="1200" height="320" rx="20"/>
+<text x="55" y="62" class="h">Conceptual Gzip member</text>
+<rect x="55" y="115" width="260" height="110" rx="12" fill="#24506d" stroke="#6fd2d0" stroke-width="2"/><text x="90" y="160" class="h">Header</text><text x="90" y="192" class="s">metadata + flags</text>
+<rect x="340" y="115" width="520" height="110" rx="12" fill="#3b3274" stroke="#a89cff" stroke-width="2"/><text x="385" y="160" class="h">DEFLATE payload</text><text x="385" y="192" class="s">compressed source stream</text>
+<rect x="885" y="115" width="260" height="110" rx="12" fill="#24506d" stroke="#6fd2d0" stroke-width="2"/><text x="920" y="160" class="h">Trailer</text><text x="920" y="192" class="s">CRC32 + ISIZE</text>
+</svg>
