@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="t d">
+<title id="t">Compressor architecture overview</title><desc id="d">The command line application validates two paths, opens a buffered input stream, passes bytes through flate2 GzipEncoder, writes an output file, finalizes it, and prints metadata.</desc>
+<defs><style>.bg{fill:#0d172b}.card{fill:#182d4b;stroke:#70a9df;stroke-width:2}.h{fill:#fff;font:bold 20px Arial}.tx{fill:#d3e3f8;font:15px Arial}.line{stroke:#82c2e8;stroke-width:3;fill:none}</style><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#82c2e8"/></marker></defs>
+<rect class="bg" width="1200" height="620" rx="24"/><text x="55" y="62" class="h" font-size="30">Runtime architecture · single process</text>
+<rect class="card" x="55" y="180" width="180" height="120" rx="16"/><text x="80" y="225" class="h">CLI</text><text x="80" y="258" class="tx">2 positional paths</text>
+<rect class="card" x="285" y="180" width="180" height="120" rx="16"/><text x="310" y="225" class="h">Validation</text><text x="310" y="258" class="tx">args + path check</text>
+<rect class="card" x="515" y="180" width="180" height="120" rx="16"/><text x="540" y="225" class="h">BufReader</text><text x="540" y="258" class="tx">streamed input</text>
+<rect class="card" x="745" y="180" width="180" height="120" rx="16"/><text x="770" y="225" class="h">GzEncoder</text><text x="770" y="258" class="tx">flate2 / DEFLATE</text>
+<rect class="card" x="975" y="180" width="180" height="120" rx="16"/><text x="1000" y="225" class="h">Output file</text><text x="1000" y="258" class="tx">.gz stream</text>
+<path class="line" marker-end="url(#ar)" d="M235 240 H285"/><path class="line" marker-end="url(#ar)" d="M465 240 H515"/><path class="line" marker-end="url(#ar)" d="M695 240 H745"/><path class="line" marker-end="url(#ar)" d="M925 240 H975"/>
+<rect class="card" x="390" y="390" width="420" height="110" rx="16"/><text x="430" y="435" class="h">Finalize and report</text><text x="430" y="468" class="tx">finish() → metadata → size ratio → elapsed time</text>
+<path class="line" marker-end="url(#ar)" d="M1065 300 V345 H810 V445"/><text x="55" y="570" class="tx">No network service, worker pool, image pipeline, or archive layer is present in the current source.</text></svg>
