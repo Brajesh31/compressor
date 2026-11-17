@@ -1,0 +1,31 @@
+name: "🐛 Bug report"
+description: Report a reproducible compressor problem.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload private files or secrets. Share a minimal safe reproduction."
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and command
+      placeholder: "compressor input.bin output.gz"
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: OS, architecture, rustc and Cargo versions
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error and exit status
