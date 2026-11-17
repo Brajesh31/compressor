@@ -2,6 +2,12 @@
 name = "compressor"
 version = "0.1.0"
 edition = "2021"
+description = "A small command-line utility that compresses files into gzip format."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Brajesh31/compressor"
+keywords = ["compression", "gzip", "cli", "rust"]
+categories = ["command-line-utilities", "compression"]
 
 [dependencies]
 flate2 = "1.0.24"
