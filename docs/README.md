@@ -1,10 +1,8 @@
 # 📚 Documentation Index
 
-Welcome to the Compressor engineering documentation.
-
 ## 🏛️ Architecture
 - [Architecture overview](architecture/README.md)
-- [Data flow and compression lifecycle](architecture/compression-lifecycle.md)
+- [Compression lifecycle](architecture/compression-lifecycle.md)
 - [Architecture decision records](architecture/decisions/README.md)
 
 ## 📖 Reference
@@ -14,6 +12,8 @@ Welcome to the Compressor engineering documentation.
 ## 🔐 Safety and operations
 - [Threat model](security/threat-model.md)
 - [Troubleshooting](operations/troubleshooting.md)
+- [CI and release automation](operations/ci-and-release.md)
+- [CI troubleshooting](operations/ci-troubleshooting.md)
 
 ## 🧪 Quality
 - [Testing strategy](quality/testing.md)
@@ -21,13 +21,14 @@ Welcome to the Compressor engineering documentation.
 
 ## 🗺️ Visual library
 - [Diagram index](diagrams/README.md)
+- [Visual assets](assets/README.md)
 - [Architecture SVG](assets/architecture-overview.svg)
 - [Compression flow SVG](assets/compression-flow.svg)
 - [Gzip container SVG](assets/gzip-container.svg)
 - [Benchmark workflow SVG](assets/benchmark-workflow.svg)
-- [Banner](assets/compressor-banner.svg)
+- [Project banner](assets/compressor-banner.svg)
 
 ## 🧰 Templates
 - [Template inventory](templates/README.md)
 
-Project setup and quick start remain in the [root README](../README.md).
+See the [root README](../README.md) for project setup and quick start.
