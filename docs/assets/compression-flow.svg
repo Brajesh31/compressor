@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+<title id="t">Gzip compression flow</title><desc id="d">Source bytes are streamed through a buffered reader to a Gzip encoder, finalized into a Gzip file, and measured.</desc>
+<defs><style>.bg{fill:#10182d}.n{fill:#1a3451;stroke:#59bcb9;stroke-width:2}.h{fill:#fff;font:bold 20px Arial}.tx{fill:#bcd0e8;font:15px Arial}.e{stroke:#9cbbff;stroke-width:3;fill:none}</style></defs><rect class="bg" width="1200" height="420" rx="22"/>
+<g><rect class="n" x="45" y="150" width="180" height="110" rx="16"/><text class="h" x="75" y="195">📄 Source</text><text class="tx" x="75" y="225">input file</text>
+<rect class="n" x="285" y="150" width="180" height="110" rx="16"/><text class="h" x="315" y="195">🌊 Buffer</text><text class="tx" x="315" y="225">BufReader</text>
+<rect class="n" x="525" y="150" width="180" height="110" rx="16"/><text class="h" x="555" y="195">🗜️ Encoder</text><text class="tx" x="555" y="225">GzEncoder</text>
+<rect class="n" x="765" y="150" width="180" height="110" rx="16"/><text class="h" x="795" y="195">📦 Gzip</text><text class="tx" x="795" y="225">target.gz</text>
+<rect class="n" x="1005" y="150" width="150" height="110" rx="16"/><text class="h" x="1030" y="195">📊 Report</text><text class="tx" x="1030" y="225">metrics</text></g>
+<g class="e"><path d="M225 205 H285 M465 205 H525 M705 205 H765 M945 205 H1005"/></g>
+<text x="48" y="330" fill="#8fa8ca" font-family="Arial" font-size="17">Important: encoder.finish() must complete before the final output size is measured.</text></svg>
