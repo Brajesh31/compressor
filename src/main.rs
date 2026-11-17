@@ -30,7 +30,8 @@ fn compress_file(source: &Path, target: &Path) -> io::Result<CompressionReport> 
     let mut encoder = GzEncoder::new(output, Compression::default());
 
     let start = Instant::now();
-    copy(&mut { input }, &mut encoder)?;
+    let mut input = input;
+    copy(&mut input, &mut encoder)?;
     let output = encoder.finish()?;
     let elapsed = start.elapsed();
     let target_bytes = output.metadata()?.len();
