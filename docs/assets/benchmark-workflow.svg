@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+<title id="t">Benchmark workflow</title><desc id="d">A proposed benchmark sequence selects fixed datasets, records environment metadata, runs multiple repetitions, calculates medians and spreads, and publishes reproducible results. This is not an existing benchmark runner.</desc>
+<defs><style>.bg{fill:#10182d}.b{fill:#1d3454;stroke:#8dabe4;stroke-width:2}.h{fill:#fff;font:bold 18px Arial}.t{fill:#c6d6ed;font:14px Arial}.l{stroke:#8dc9d2;stroke-width:3;fill:none}</style><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#8dc9d2"/></marker></defs>
+<rect class="bg" width="1200" height="400" rx="20"/>
+<g><rect class="b" x="35" y="145" width="190" height="110" rx="16"/><text class="h" x="65" y="190">1. Dataset</text><text class="t" x="65" y="220">fixed files</text>
+<rect class="b" x="275" y="145" width="190" height="110" rx="16"/><text class="h" x="305" y="190">2. Environment</text><text class="t" x="305" y="220">CPU / OS / Rust</text>
+<rect class="b" x="515" y="145" width="190" height="110" rx="16"/><text class="h" x="545" y="190">3. Repetitions</text><text class="t" x="545" y="220">multiple runs</text>
+<rect class="b" x="755" y="145" width="190" height="110" rx="16"/><text class="h" x="785" y="190">4. Analysis</text><text class="t" x="785" y="220">median / spread</text>
+<rect class="b" x="995" y="145" width="170" height="110" rx="16"/><text class="h" x="1025" y="190">5. Report</text><text class="t" x="1025" y="220">evidence</text></g>
+<g class="l" marker-end="url(#m)"><path d="M225 200 H275 M465 200 H515 M705 200 H755 M945 200 H995"/></g>
+<text x="40" y="330" class="t">Proposed methodology only. No benchmark results or automation are currently included.</text></svg>
