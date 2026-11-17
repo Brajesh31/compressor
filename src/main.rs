@@ -69,9 +69,7 @@ fn print_usage(program: &str) {
 
 fn run() -> Result<(), Box<dyn std::error::Error>> {
     let mut args = env::args_os();
-    let program = args
-        .next()
-        .unwrap_or_else(|| "compressor".into());
+    let program = args.next().unwrap_or_else(|| "compressor".into());
     let source = args.next().map(PathBuf::from);
     let target = args.next().map(PathBuf::from);
     let extra = args.next();
