@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="420" viewBox="0 0 1500 420" role="img" aria-labelledby="t d">
+<title id="t">Compressor project banner</title><desc id="d">Dark purple and teal vector banner for the Rust Gzip compressor CLI, showing an input stream entering a compression core and leaving as a smaller stream.</desc>
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111a35"/><stop offset=".55" stop-color="#302568"/><stop offset="1" stop-color="#006f78"/></linearGradient><linearGradient id="c"><stop stop-color="#56d6d0"/><stop offset="1" stop-color="#a69bff"/></linearGradient></defs>
+<rect width="1500" height="420" rx="30" fill="url(#b)"/><circle cx="1250" cy="80" r="210" fill="#65e0dc" opacity=".12"/><circle cx="1180" cy="380" r="200" fill="#a78bfa" opacity=".13"/>
+<text x="72" y="150" fill="#fff" font-family="Inter,Arial" font-size="78" font-weight="800">🗜️ Compressor</text>
+<text x="76" y="210" fill="#d6e5ff" font-family="Inter,Arial" font-size="30">Stream in. Gzip out. Measure what changed.</text>
+<g transform="translate(850 92)" fill="none" stroke="url(#c)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M0 65 H150 M0 110 H150 M0 155 H150"/><path d="M170 45 L210 110 L170 175 M210 110 H350"/><rect x="365" y="58" width="145" height="104" rx="18"/><path d="M390 85 H480 M390 110 H460 M390 135 H445"/></g>
+<text x="76" y="330" fill="#b5c8e8" font-family="Inter,Arial" font-size="19">Rust 2021 · flate2 · Gzip · streaming file I/O</text>
+<text x="76" y="370" fill="#8fa8cf" font-family="Inter,Arial" font-size="15">Small CLI utility · no GUI or network service</text></svg>
