@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔐 Private security report
+    url: https://github.com/Brajesh31/compressor/security/advisories/new
+    about: Do not publish exploit details or sensitive file contents.
+  - name: 📚 Contribution guide
+    url: https://github.com/Brajesh31/compressor/blob/main/CONTRIBUTING.md
+    about: Read setup and validation instructions.
